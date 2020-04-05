@@ -1,0 +1,36 @@
+.grid{
+    height:100%;
+    display: grid;
+    
+    grid-template-columns:100%;
+    grid-template-rows:50% 50%;
+    grid-template-areas:
+    "sect1"
+    "sect2";
+
+}
+.top{
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    grid-area: sect1;
+    background-color: #007FFF;
+}
+.bottom{
+    display:grid;   
+    justify-items: center;
+    align-items: center;
+    grid-area: sect2;
+    background-color:#91C8FF;
+}
+
+.card{
+    text-align: center;
+    border-radius: 15px;
+    padding: 1em 2em;
+    width: 34% ;
+    height:38%;
+    background-color:white;  
+}
+
+
